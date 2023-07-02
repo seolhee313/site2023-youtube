@@ -1,28 +1,14 @@
 import React from 'react';
 
-const Videos = () => {
+import { VideoCard } from './';
+
+const Videos = ({ videos }) => {
   return (
     <div className="videos__inner">
-      <ul>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-      </ul>
+      {videos.map((video, idx) => (
+        <VideoCard key={idx} video={video} />
+      ))}
     </div>
   );
 };
-
 export default Videos;

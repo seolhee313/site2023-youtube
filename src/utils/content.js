@@ -1,5 +1,3 @@
-import { BiAdjust } from 'react-icons/bi';
-
 import { BiBone } from 'react-icons/bi';
 import { BiSolidDog } from 'react-icons/bi';
 // import { BiLogoBaidu } from 'react-icons/ai';

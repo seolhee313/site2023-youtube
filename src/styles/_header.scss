@@ -24,14 +24,25 @@
     }
 
     .search {
+        position: relative;
         width: calc(100% - 300px);
+
+        label {
+            position: absolute;
+            left: 15px;
+            top: 10px;
+            z-index: 10;
+            width: 20px;
+            height: 20px;
+            color: #fff;
+        }
 
         input {
             width: 95%;
             border: 0;
-            padding: 10px 20px;
+            padding: 10px 20px 10px 40px;
             border-radius: 50px;
-            background-color: #dbc8aa;
+            background-color: #d8be93;
 
             &::-webkit-input-placeholder {
                 color: #fff;
