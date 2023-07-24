@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## YOUTUBE API 사이트
 react로 youtube API를 활용해 제작한 유튜브 API 입니다.<br>
 useState와 useEffect, useParams를 사용하여 유튜브 API 데이터와 서치 기능을 구현하였습니다.
@@ -30,7 +29,3 @@ useState와 useEffect, useParams를 사용하여 유튜브 API 데이터와 서�
 
 ## Screenshots
 ![image](https://github.com/seolhee313/site2023-youtube/assets/125417882/61cc6c4e-dd29-4d92-8875-71817dc66c22)
-=======
-# YOUTUBE 사이트
-YOUTUBE 사이트
->>>>>>> ed7b6261ae05c5dc35419d329bf368cf04aef77a
